@@ -1,0 +1,9 @@
+@"
+# OS files
+.DS_Store
+Thumbs.db
+
+# Neovim generated files
+*.swp
+*.swo
+"@ | Set-Content .gitignore
