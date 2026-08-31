@@ -16,6 +16,8 @@ return {
                 "vimdoc",
                 "query",
                 "cmake",
+                "markdown",
+                "markdown_inline"
             })
         end,
     },
