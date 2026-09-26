@@ -53,3 +53,16 @@ vim.keymap.set("n", "<leader>rn", vim.lsp.buf.rename, {
 vim.keymap.set("n", "<leader>ca", vim.lsp.buf.code_action, {
     desc = "Code action",
 })
+
+-- Diagnostics
+vim.keymap.set("n", "<leader>d", vim.diagnostic.open_float, {
+    desc = "Show diagnostic",
+})
+
+vim.keymap.set("n", "]d", vim.diagnostic.goto_next, {
+    desc = "Next diagnostic",
+})
+
+vim.keymap.set("n", "[d", vim.diagnostic.goto_prev, {
+    desc = "Previous diagnostic",
+})
